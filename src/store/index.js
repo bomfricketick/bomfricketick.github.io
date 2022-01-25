@@ -3,7 +3,11 @@ import { defineStore } from 'pinia'
 
 export const useUIStore = defineStore('main', {
     state: () => ({
-        theme: {}
+        theme: {},
+        navigation: [
+            { name: "devlog", to: "Devlog" },
+            { name: "about", to: "About" },
+        ]
     }),
     getters: {
         getTheme: (state) => {
@@ -29,6 +33,9 @@ export const useUIStore = defineStore('main', {
         updateTheme (payload) {
             this.theme = payload
             localStorage.theme = payload
+            payload === "light"
+                ? document.querySelector("html").classList.remove("dark")
+                : document.querySelector("html").classList.add("dark");
         }
     }
 })

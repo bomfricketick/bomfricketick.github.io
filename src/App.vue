@@ -1,7 +1,8 @@
 <script setup>
 import { onMounted } from 'vue';
 import { useUIStore } from './store';
-import Navbar from './components/Navbar.vue';
+import TheNavbar from './components/TheNavbar.vue';
+import TheFooter from './components/TheFooter.vue';
 
 const MyStore = useUIStore()
 
@@ -12,9 +13,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <Navbar></Navbar>
-  <div class="max-w-6xl mx-auto">
+  <TheNavbar/>
+  <div class="max-w-6xl mx-auto flex-grow">
     <router-view></router-view>
   </div>
+  <TheFooter/>
 </template>
 
