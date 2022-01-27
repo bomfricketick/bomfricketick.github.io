@@ -1,11 +1,11 @@
 # bomfricketick
 
 ## Table of contents
-* [General_info](#general-info)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-##General info
+## General info
 This will eventually be my personal website were I document my progress in indie game development using unreal engine.
 
 
