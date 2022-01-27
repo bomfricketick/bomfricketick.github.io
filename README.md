@@ -1,7 +1,7 @@
 # bomfricketick
 
 ## Table of contents
-* [General_info] (#general-info)
+* [General_info](#general-info)
 * [Technologies] (#technologies)
 * [Setup] (#setup)
 
