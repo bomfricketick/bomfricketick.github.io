@@ -11,7 +11,7 @@ const uiStore = useUIStore()
         <div class="flex justify-between items-center xl:max-w-6xl mx-auto py-4 px-4 xl:px-0">
             <div class="flex dark:text-gray-300">
                 <router-link :to="{ name: 'Home' }">
-                    <span class="text-4xl font-semibold tracking-widest">BOM</span>
+                    <span class="text-4xl font-semibold tracking-widest">bom</span>
                     <span class="text-4xl font-light tracking-widest">fricketick</span>
                 </router-link>
             </div>

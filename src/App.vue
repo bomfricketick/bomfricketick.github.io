@@ -14,7 +14,7 @@ onMounted(() => {
 
 <template>
   <TheNavbar/>
-  <div class="max-w-6xl mx-auto flex-grow">
+  <div class="flex-grow">
     <router-view></router-view>
   </div>
   <TheFooter/>

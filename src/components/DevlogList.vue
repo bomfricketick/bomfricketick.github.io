@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <slot></slot>
     </div>
 

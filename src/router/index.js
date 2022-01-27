@@ -16,7 +16,15 @@ const routes = [
     {
         path: "/devlog",
         name: "Devlog",
-        component: () => import(/* webpackChunkName: "Devlog" */ "../views/Devlog.vue")
+        component: () => import(/* webpackChunkName: "Devlog" */ "../views/Devlog.vue"),
+        children: [
+            {
+                path: ":slug",
+                name: "DevlogDetail",
+                component: () => import(/* webpackChunkName: Devlog */ "../views/DevlogDetail.vue")
+            },
+            
+        ]
     },
     {
         path: "/latest",
