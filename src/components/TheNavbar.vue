@@ -7,7 +7,7 @@ const uiStore = useUIStore()
 </script>
 
 <template>
-    <div>
+    <nav class="sticky top-0"> 
         <div class="flex justify-between items-center xl:max-w-6xl mx-auto py-4 px-4 xl:px-0">
             <div class="flex dark:text-gray-300">
                 <router-link :to="{ name: 'Home' }">
@@ -45,5 +45,5 @@ const uiStore = useUIStore()
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 </template>
