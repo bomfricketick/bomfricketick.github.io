@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as s}from"./vendor.e3521e16.js";const c={},r={class:"flex flex-col flex-grow items-center justify-center"},a=s("h1",{class:"text-3xl uppercase font-light text-gray-400"},"About",-1),n=[a];function _(l,f){return t(),o("div",r,n)}var p=e(c,[["render",_]]);export{p as default};

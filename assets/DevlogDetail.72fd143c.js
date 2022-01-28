@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o}from"./vendor.e3521e16.js";const r={},c={class:"px-4 xl:px-0 xl:max-w-6xl mx-auto"};function s(a,l){return t(),o("div",c," tittut ")}var x=e(r,[["render",s]]);export{x as default};
